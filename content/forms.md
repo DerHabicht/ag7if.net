@@ -42,7 +42,6 @@ description: 'List of forms that are hosted on ag7if.net.'
 | AG7IF 6 | Mission Packing List             | [pdf](forms/ag7if/pdf/ag7if-6.pdf) |
 | AG7IF 7 | Equipment Maintenance Work Order | [pdf](forms/ag7if/pdf/ag7if-7.pdf) |
 | AG7IF 8 | Equipment Rhab Tasks             | [pdf](forms/ag7if/pdf/ag7if-8.pdf) |
-| AG7IF 9 | Pomodoro Pad                     | [pdf](forms/ag7if/pdf/ag7if-9.pdf) |
 
 ## CAP Forms
 |           |                                         |                                   |
@@ -70,6 +69,13 @@ description: 'List of forms that are hosted on ag7if.net.'
 | CERT 7 | Equipment Inventory          | [pdf](forms/cert/pdf/cert7.pdf) |
 | CERT 8 | General Message              | [pdf](forms/cert/pdf/cert8.pdf) |
 
+## THUS Forms
+|        |                  |                                  |
+|--------|------------------|----------------------------------|
+| THUS 1 | Pomodoro Pad     | [pdf](forms/thus/pdf/thus-1.pdf) |
+| THUS 2 | Daily Reflection | [pdf](forms/thus/pdf/thus-2.pdf) |
+| THUS 3 | Weekly Meal Plan | [pdf](forms/thus/pdf/thus-3.pdf) |
+| THUS 4 | Problem Analysis | [pdf](forms/thus/pdf/thus-4.pdf) |
 
 ## Other Forms
 |                                                 |                                                                         |
