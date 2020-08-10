@@ -9,10 +9,10 @@ jobs:
     steps:
       - checkout
       - run:
-        name: 'Install up Git LFS'
-        command: |
-          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-          sudo apt-get install git-lfs
+          name: 'Install up Git LFS'
+          command: |
+            curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+            sudo apt-get install git-lfs
       - run:
           name: 'Pull submodules'
           command: |
