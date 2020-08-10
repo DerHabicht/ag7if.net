@@ -3,6 +3,13 @@ title: Directory of Forms
 description: 'List of forms that are hosted on ag7if.net.'
 ---
 
+## Forms Kits
+|                       |                                       |
+|-----------------------|---------------------------------------|
+| Incident Planning Kit | [pdf](forms/packets/planning-kit.pdf) |
+| Incident Log Kit      | [pdf](forms/packets/log-kit.pdf)      |
+
+
 ## ICS Forms
 |           |                                                |                                                                                                                      |
 |-----------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
