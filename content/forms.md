@@ -88,6 +88,8 @@ description: 'List of forms that are hosted on ag7if.net.'
 |                                                 |                                                                         |
 |-------------------------------------------------|-------------------------------------------------------------------------|
 | ARRL Radiogram                                  | [pdf](forms/other/pdf/arrl-radiogram.pdf)                               |
+| Celestial Navigation Sight Reduction Forms      | [pdf](forms/other/pdf/sight-reduction.pdf)                              |
+| IFR Navigation Log                              | [pdf](forms/other/pdf/ifr-navlog.pdf)                                   |
 | IS 906 Bomb Threat Checklist                    | [pdf](forms/other/pdf/is906.pdf)                                        |
 | NTS Disaster Welfare Message                    | [pdf](forms/other/pdf/fsd-244.pdf)                                      |
 | US Forest Service After Action Review Checklist | [pdf](forms/other/pdf/usda-aar.pdf)                                     |
