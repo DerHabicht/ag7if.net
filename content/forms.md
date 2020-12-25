@@ -84,6 +84,7 @@ description: 'List of forms that are hosted on ag7if.net.'
 | THUS 2 | Daily Reflection | [pdf](forms/thus/pdf/thus-2.pdf) |
 | THUS 3 | Weekly Meal Plan | [pdf](forms/thus/pdf/thus-3.pdf) |
 | THUS 4 | Problem Analysis | [pdf](forms/thus/pdf/thus-4.pdf) |
+| THUS 5 | Daily Briefing   | [pdf](forms/thus/pdf/thus-5.pdf) |
 
 ## Other Forms
 |                                                 |                                                                         |
