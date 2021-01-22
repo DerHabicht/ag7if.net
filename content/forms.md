@@ -8,7 +8,7 @@ description: 'List of forms that are hosted on ag7if.net.'
 |----------------------------------|---------------------------------------|
 | Incident Planning Kit            | [pdf](forms/packets/planning-kit.pdf) |
 | Incident Log Kit                 | [pdf](forms/packets/log-kit.pdf)      |
-| Weekly Activity Review (WAR) Kit | [pdf](forms/packegs/war-kit.pdf)      |
+| Weekly Activity Review (WAR) Kit | [pdf](forms/packets/war-kit.pdf)      |
 
 
 ## ICS Forms
