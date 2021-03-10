@@ -12,13 +12,13 @@ description: 'List of forms that are hosted on ag7if.net.'
 
 ## AG7IF Forms
 
-### 700 Series---Software Development
+### 700 Series Software&mdash;Development
 |           |                                 |                                    |
 |-----------|---------------------------------|------------------------------------|
 | AG7IF 701 | Sprint Retrospective            | [pdf](forms/thus/pdf/ag7if701.pdf) |
 | AG7IF 702 | Software Story Design Worksheet | [pdf](forms/thus/pdf/ag7if702.pdf)   |
 
-### 800 Series---Planned Incident
+### 800 Series&mdash;Planned Incident
 |           |                                    |
 |-----------|------------------------------------|-------------------------------------|
 | AG7IF 801 | Travel Iternerary                  | [pdf](forms/ag7if/pdf/ag7if801.pdf) |
@@ -31,7 +31,7 @@ description: 'List of forms that are hosted on ag7if.net.'
 | AG7IF 808 | Equipment Rhab Tasks               | [pdf](forms/ag7if/pdf/ag7if808.pdf) |
 | AG7IF 809 | Planned Incident Preparation Tasks | [pdf](forms/ag7if/pdf/ag7if809.pdf) |
 
-### 900 Series---Personal Management
+### 900 Series&mdash;Personal Management
 |           |                  |                                    |
 |-----------|------------------|------------------------------------|
 | AG7IF 901 | Pomodoro Pad     | [pdf](forms/thus/pdf/ag7if901.pdf) |
