@@ -1,63 +1,40 @@
-version: 2.1
-orbs:
-  aws-s3: circleci/aws-s3@1.0.16
+version: 2
+
 jobs:
-  build:
-    working_directory: ~/repo
+  ci:
     docker:
-      - image: circleci/node:10.16.3
+      - image: cimg/node:lts
     steps:
       - checkout
-      - run:
-          name: 'Install up Git LFS'
-          command: |
-            curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-            sudo apt-get install git-lfs
-      - run:
-          name: 'Pull submodules'
-          command: |
-            git submodule init
-            git submodule update --remote
+
       - restore_cache:
-          key: dependency-cache-{{ checksum "yarn.lock" }}
+          keys:
+            - yarn-v1-{{ checksum "yarn.lock" }}
+
       - run:
-          name: install-packages
-          command: yarn install
+          name: Install dependencies
+          command: yarn --frozen-lockfile --cache-folder ~/.cache/yarn
+
       - save_cache:
-          key: dependency-cache-{{ checksum "yarn.lock" }}
+          key: yarn-v1-{{ checksum "yarn.lock" }}
           paths:
-            - ./node_modules
+            - ~/.cache/yarn
+
       - run:
-          name: build-project
-          command: 'yarn run build'
+          name: Run linter
+          command: yarn lint
+
       - run:
-          name: generate-static-pages
-          command: 'yarn run export'
-      - persist_to_workspace:
-          root: ./
-          paths:
-            - dist
-  deploy:
-    working_directory: ~/repo
-    docker:
-      - image: circleci/node:10.16.3
-    steps:
-      - attach_workspace:
-          at: ./
-      - aws-s3/sync:
-          from: dist
-          to: 's3://ag7if-blog.the-hawk.us/'
-          overwrite: true
+          name: Run tests
+          command: yarn test
 
 workflows:
-  version: 2.1
-  build-deploy:
+  version: 2
+  ci:
     jobs:
-      - build
-      - deploy:
-          context: aws-thus
-          requires:
-            - build
+      - ci:
           filters:
             branches:
-              only: master
+              only:
+                - main
+                - master
