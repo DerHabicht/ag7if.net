@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: 'Install up Git LFS'
+          name: 'Install Git LFS'
           command: |
             curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
             sudo apt-get install git-lfs
@@ -40,7 +40,7 @@ jobs:
   deploy:
     working_directory: ~/repo
     docker:
-      - image: circleci/node:10.16.3
+      - image: cimg/python
     steps:
       - attach_workspace:
           at: ./
