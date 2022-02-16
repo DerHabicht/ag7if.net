@@ -1,3 +1,0 @@
-[submodule "static/forms"]
-	path = static/forms
-	url = git@github.com:DerHabicht/thus-forms.git
